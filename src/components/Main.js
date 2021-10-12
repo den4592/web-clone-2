@@ -27,6 +27,14 @@ const Video = styled.video`
   width: 100%;
   object-fit: cover;
   height: 150vh;
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+    display: block !important;
+  }
+
+  @media (max-width: 767px) {
+    display: block !important;
+  }
 `;
 
 const TextContainerStick = styled.div`
