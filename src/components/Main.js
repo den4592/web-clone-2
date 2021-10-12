@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import wave_video from "../video/wave-video.mp4";
+import wave_video from "../video/compress.mp4";
 
 const Container = styled.div`
   width: 100%;
